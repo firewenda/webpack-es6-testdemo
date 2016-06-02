@@ -1,14 +1,11 @@
 # webpack-es6-testdemo
 
-## The first
+## 安装依赖
 ```
 npm install
 ```
-## The second
-```
-webpack
-```
-If you want to watch...
+## 运行webpack
 ```
 webpack --watch
 ```
+打开index.html 测试你的代码
