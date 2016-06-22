@@ -1,7 +1,7 @@
-let a = 3;
+import {x, y} from './hello'
 
+alert(x);
+alert(y);
 
-{
-	let a = 4;
-	alert(a)
-}
+let [a, ...c] = [1,2,3];
+alert(c);

@@ -49,16 +49,31 @@
 
 /***/ },
 /* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _hello = __webpack_require__(2);
+
+	alert(_hello.x);
+	alert(_hello.y);
+
+	var a = 1;
+	var c = [2, 3];
+
+	alert(c);
+
+/***/ },
+/* 2 */
 /***/ function(module, exports) {
 
 	"use strict";
 
-	var a = 3;
-
-	{
-		var _a = 4;
-		alert(_a);
-	}
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports["default"] = { x: 1, y: 2 };
+	module.exports = exports["default"];
 
 /***/ }
 /******/ ]);
